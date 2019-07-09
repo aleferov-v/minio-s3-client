@@ -1,0 +1,11 @@
+aws:
+  secretKey: minios3example
+  accessKeyId: minios3example
+  endpoint: http://localhost:9000
+  bucket: com-example-minio-s3-client
+  region: us-east-1
+  downloadUrl: http://localhost:8080/files/
+
+logging:
+  level:
+    root: INFO
